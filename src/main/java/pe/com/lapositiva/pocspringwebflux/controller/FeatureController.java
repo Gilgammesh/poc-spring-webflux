@@ -17,6 +17,7 @@ import pe.com.lapositiva.pocspringwebflux.service.FeatureService;
 
 @RequiredArgsConstructor
 @RestController
+@SuppressWarnings("null")
 @RequestMapping("/features")
 public class FeatureController {
 
